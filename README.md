@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="bee-land.png" alt="Bee Banner">
+    <img src="bee-land.jpg" alt="Bee Banner">
     <h1>Bee</h1>
     <strong>Bee is a library for using Bee components in your web app.</strong>
 </div>
