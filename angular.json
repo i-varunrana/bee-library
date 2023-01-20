@@ -3,5 +3,36 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "@aysin/bee": {
+      "projectType": "library",
+      "root": "projects/aysin/bee",
+      "sourceRoot": "projects/aysin/bee/src",
+      "prefix": "bee",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/aysin/bee/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/aysin/bee/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/aysin/bee/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/aysin/bee/src/test.ts",
+            "tsConfig": "projects/aysin/bee/tsconfig.spec.json",
+            "karmaConfig": "projects/aysin/bee/karma.conf.js"
+          }
+        }
+      }
+    }
   }
 }

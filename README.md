@@ -1,27 +1,37 @@
-# Aysin
+## what is Bee?
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+Bee was created with one simple goal, to create the next generation of the next beautiful, more affirmative, design system.
 
-## Development server
+## what this library features?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+-   Easy to use and beautifully designed React components based on Bee design system.
+-   Flexible and composable components which accepts custom configurations.
+-   Commonly used utility methods and functions.
+-   Fluid and highly optimized animations.
 
-## Code scaffolding
+> note: currently the components in this library are optimized for mobile views, we will soon release support for desktop views.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## how to install?
 
-## Build
+to use NeoPOP library, all you need to do is install the `@aysin/bee` package and its peer dependencies:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```sh
+npm i @aysin/bee --save
+```
 
-## Running unit tests
+## license
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+Copyright 2022 Dreamplug Technologies Private Limited.
 
-## Running end-to-end tests
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```

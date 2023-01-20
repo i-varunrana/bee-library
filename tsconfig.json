@@ -2,6 +2,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@aysin/bee": [
+        "dist/aysin/bee"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
