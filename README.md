@@ -1,3 +1,9 @@
+<div align="center">
+    <img src="neopop-land.png" alt="NeoPop Banner">
+    <h1>Bee</h1>
+    <strong>Bee is a library for using Bee components in your web app.</strong>
+</div>
+<br>
 ## what is Bee?
 
 Bee was created with one simple goal, to create the next generation of the next beautiful, more affirmative, design system.
